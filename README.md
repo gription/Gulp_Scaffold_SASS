@@ -1,5 +1,5 @@
 Project: cssmenu
-echo Desc: The most amazing thing evar!
+echo Desc: The most amazing thing evar!!
 
 Next steps:
 Need Node dependencies?
