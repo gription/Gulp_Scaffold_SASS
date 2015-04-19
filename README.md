@@ -1,21 +1,5 @@
 Project: cssmenu
-echo Desc: The most amazing thing evar!!
-
-Next steps:
-Need Node dependencies?
-From /home/andy/code/cssmenu run: npm init
-Place package.json in /home/andy/code/cssmenu and run: npm install
-This populates node_modules
-
-Need front-end packages?
-Place bower.json in /home/andy/code/cssmenu and run: bower install
-This populates bower_components
-
-You may want to generate further scaffolding with Yeoman?
-yo gulp-foundation, or yo-angular perhaps?
-
-A general-purpose Gulpfile.js has been placed in /home/andy/code/cssmenu
-but you will probably need/want to customize it?
+echo Desc: The most amazing thing evar?
 
 In general, this scaffold suggest your 'src' folder is where you work,
 while gulp transpiles everything there into your distributable package folder
