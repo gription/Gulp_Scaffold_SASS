@@ -1,0 +1,37 @@
+//
+// _base.scss - Global variables, functions, and mixins declared
+//              plus modules, partials, and vendor packages imported
+
+@import "normalize";
+//@import "reset";
+
+// Colors
+$black: #000;
+$white: #FFF;
+$gray: #AAA;
+$darkgray: darken($gray, 25%);
+$lightgray: lighten($gray, 25%); 
+$red: #FF0000;
+$green: #00FF00;
+$blue: rgba(0, 0, 255, 1.0);
+$purple: mix($red, $blue);
+
+// Font weights
+$light: 100;
+$regular: 400;
+$bold: 600;
+
+// Base Font
+$base-font-family: sans-serif;
+$base-font-weight: $regular;
+$base-font-size: 13px;
+$base-line-height: 1.4;
+
+// Fixed Font
+$fixed-font-family: monospace;
+$fixed-font-size: 85%;
+$fixed-line-height: $base-line-height;
+
+// Headings
+$header-font-weight: $bold;
+

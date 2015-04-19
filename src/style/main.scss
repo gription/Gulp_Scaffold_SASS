@@ -1,0 +1,68 @@
+//
+// main.scss - Primary Project CSS
+//
+
+@import "base";
+$bgcolor: #004400;
+$txtcolor: black;
+
+* {
+	list-style-type: none;
+	text-decoration: none;
+	color: $txtcolor;
+	font-family: 'Lato', Helvetica, Arial, sans-serif;
+	font-size: 18px;
+}
+
+
+body {
+	position: relative;
+	width: 960px;
+	border-style: solid;
+	border-width: 10px;
+	background-color: $bgcolor;
+	text-align: center;
+}
+
+#wrapper {
+	margin: auto;
+	width: 80%;
+	background-color: blue;
+
+}
+
+#topbar {
+	background-color: yellow;
+	height: 50px;	
+	border-style: solid;
+	border-width: 10px;
+}
+
+.nav {
+
+}
+
+.navlink {
+	border-color: orange;
+	border-style: dotted;
+	border-width: 1px;
+	margin: auto;
+	padding: 0 10px;
+	float: left;
+	text-align: center;
+	position: relative;
+}
+
+.subnav {
+	position: relative;
+	display: none;
+}
+
+.subnav:hover {
+	display: 100%;
+}
+.subnav>.navlink {
+	background-color: blue;
+	clear: both;
+}
+
