@@ -12,5 +12,5 @@ publishing time surprises to only hosting platform inconsistencies.
 
 *** Changes should not be made within 'dist' directly as 'gulp clean' will
 delete the entire contents of that 'dist' folder remorselessly. ***
--adb
+adb
 
